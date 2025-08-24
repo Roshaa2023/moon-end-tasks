@@ -12,8 +12,9 @@
 <center style="margin: 10%">
 
     <form action="" method="POST">
-        Fayla yazmaq üçün Məlumatı daxil edin :
-        <input style="width: 60%"  type="text" name="melumat">
+        <label for="">Fayla yazmaq üçün Məlumatı daxil edin :
+            <input style="width: 60%"  type="text" name="melumat">
+        </label>
         <input type="submit" value="Yadda saxla">
     </form>
 <hr><br>

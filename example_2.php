@@ -10,13 +10,13 @@
 <body>
 <center><h1><pre>Tarixin ekrana çap edilməsi</pre></h1></center>
 <center style="margin: 10%">
-    <pre>
+    <i>
     <h1>
         <?php
         echo 'Bakı vaxtı ilə  :  ' . date_default_timezone_set('Asia/Baku') . '     ' . date('d-m-Y / H:i:s') . '<br>';
         ?>
     </h1>
-        </pre>
+        </i>
 </center>
 </body>
 </html>

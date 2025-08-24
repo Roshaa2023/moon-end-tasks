@@ -21,7 +21,7 @@
 <br>
 <?php
 if ($_SERVER["REQUEST_METHOD"] === "GET"){
-    $age = $_GET['age'];
+    $age = isset($_GET['age']) ? $_GET['age'] : '';
 
     if ($age<18){
         echo '<center><pre><h1>' . "sizin yaşınız uyğun deyil! ____ " . " " . "age : $age" . '</h1></pre></center>';
